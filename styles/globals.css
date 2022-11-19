@@ -1,5 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Buljirya';
+  src: url(../public/Buljirya.ttf);
+}
+@font-face {
+  font-family: 'burtons';
+  src: url(../public/Burtons.otf);
+}
 html,
 body {
+  scroll-behavior: smooth;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -14,13 +29,17 @@ a {
 * {
   box-sizing: border-box;
 }
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+@keyframes animate {
+  0%,100% {
+    transform: translateY(0px);
   }
-  body {
-    color: white;
-    background: black;
+  25% {
+    transform: translateX(-4px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  75% {
+    transform: translateX(4px);
   }
 }
