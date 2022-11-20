@@ -83,7 +83,7 @@ export default function Home() {
               <p className="text-gray-800 py-1 dark:text-gray-300">Figma</p>
               <p className="text-gray-800 py-1 dark:text-gray-300">Indesign</p>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 duration-500 hover:py-5 hover:bg-slate-100 dark:bg-blue-800 dark:text-white">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 duration-500 hover:py-5 hover:bg-slate-100 dark:bg-blue-800 dark:text-white dark:hover:bg-blue-700">
                 <Image className='mx-auto' src={code} width={100} height={100} alt='..' />
                 <h3 className="text-lg font-medium pt-8 pb-2 ">
                   Code your dream project
