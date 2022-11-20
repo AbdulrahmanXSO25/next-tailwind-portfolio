@@ -73,7 +73,7 @@ export default function Home() {
           </p>
           </div>
           <div className="lg:flex gap-10">
-            <div className='text-center p-10 shadow-lg rounded-2xl my-10 duration-500 hover:py-5 hover:bg-slate-100 dark:bg-blue-800 dark:text-white'>
+            <div className='text-center p-10 shadow-lg rounded-2xl my-10 duration-500 hover:py-5 hover:bg-slate-100 dark:bg-blue-800 dark:text-white dark:hover:bg-blue-700'>
               <Image className='mx-auto' src={design} width={100} height={100} alt='..' />
               <h3 className='text-l font-medium pt-8 pb-2'>Beautiful Designs</h3>
               <p className='py-2'>Creating elegant designs suited for your needs following core design theory.</p>
@@ -98,7 +98,7 @@ export default function Home() {
                 <p className="text-gray-800 py-1 dark:text-gray-300">Figma</p>
                 <p className="text-gray-800 py-1 dark:text-gray-300">Indesign</p>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 duration-500 hover:py-5 hover:bg-slate-100 dark:bg-blue-800 dark:text-white">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 duration-500 hover:py-5 hover:bg-slate-100 dark:bg-blue-800 dark:text-white dark:hover:bg-blue-700">
                 <Image className='mx-auto' src={consulting} width={100} height={100} alt='..'/>
                 <h3 className="text-lg font-medium pt-8 pb-2 ">Consulting</h3>
                 <p className="py-2">
